@@ -21,10 +21,12 @@ public class Library {
         String a = krzyzacy.author;
         String b = ksiazka.name;
         double cena = krzyzacy.price;
+        double c = ksiazka.price;
 
         System.out.println(cena);
         System.out.println(a);
         System.out.println(b);
+        System.out.println(c);
 
     }
 }
