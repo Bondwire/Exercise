@@ -18,7 +18,10 @@ public class Main02_atrybuty {
         AccessModifier testAttribute = new AccessModifier();
         testAttribute.publicAttribute = "public";
         testAttribute.protectedAttribute = "protected";
-       // testAttribute.privateAttribute = "prywatny";
+       //testAttribute.privateAttribute = "prywatny";
+        System.out.println(testAttribute.publicAttribute);
+        System.out.println(testAttribute.protectedAttribute);
         System.out.println(testAttribute);
+
     }
 }
