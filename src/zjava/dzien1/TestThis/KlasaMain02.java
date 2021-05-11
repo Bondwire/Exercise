@@ -35,4 +35,8 @@ public class KlasaMain02 {
     public String getIBU() {
         return ("IBU wynosi :" + this.IBU);
     }
+
+    public String toString() {
+        return "Nasze piwko ma IBU: " + this.IBU;
+}
 }

@@ -8,5 +8,9 @@ public class KlasaMain01 {
 
         // nie możemy wydrukować bo zmienne są prywatne
         System.out.println(b.getIBU());
+       // System.out.println(b);
     }
-}
+
+
+    }
+
