@@ -1,6 +1,6 @@
-package zjava.dzien1.metodyZad2;
+package zjava.dzien1.metodyZad3;
 
-public class Person {
+public class PersonGetFullName {
 
     private String surname;
     private int age;
@@ -24,10 +24,6 @@ public class Person {
 
     public void setAge(int age) {
         this.age = age;
-    }
-
-    public void increaseAge(int i) {
-        this.age += i;
     }
 
     public String getName() {

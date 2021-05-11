@@ -1,6 +1,9 @@
-package zjava.dzien1.metodyZad2;
+package zjava.dzien1.metodyZad3;
 
-public class MainPerson {
+import zjava.dzien1.metodyZad2.Person;
+
+public class MainPersonFullName {
+
     public static void main(String[] args) {
         Person a = new Person();
 
@@ -9,7 +12,7 @@ public class MainPerson {
         a.setName("Anna");
         a.setGender("pani");
 
-        System.out.println(a.getSurname());
+        System.out.println(a.getSurname() + a.getName());
         System.out.println(a.getName());
         System.out.println(a.getGender());
 
