@@ -30,4 +30,9 @@ public class KlasaMain02 {
     public void setIBU(String IBU) {
         this.IBU = IBU;
     }
+
+    // pole IBU będzie dostępne z zewnątrz
+    public String getIBU() {
+        return ("IBU wynosi :" + this.IBU);
+    }
 }
