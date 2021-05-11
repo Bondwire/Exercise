@@ -9,6 +9,6 @@ public class Book {
     public double price = 40;
     public String author= "Sienkiewicz"
     private int catalogNumber = 10;
-
+    
 }
 

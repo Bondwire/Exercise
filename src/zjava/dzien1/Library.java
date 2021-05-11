@@ -11,6 +11,8 @@ public class Library {
         Book krzyzacy = new Book();
 
         //int nie wymaga new
+
+        //te obiety powinny mieć wartości nie tutaaj tylko w book - bo jest bałagan
         ksiazka.author = "Rej";
         krzyzacy.price = 50;
     //    krzyzacy.catalogNumber = 1; jest prywatny - nie jest public tylkko static,
