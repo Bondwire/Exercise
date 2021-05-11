@@ -1,4 +1,4 @@
-package zjava.dzien1;
+package zjava.dzien1.klasy;
 
 public class Main01 {
     public static void main(String[] args) {
