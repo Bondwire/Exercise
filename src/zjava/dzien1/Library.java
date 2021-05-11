@@ -14,14 +14,17 @@ public class Library {
 
         //te obiety powinny mieć wartości nie tutaaj tylko w book - bo jest bałagan
         ksiazka.author = "Rej";
-        krzyzacy.price = 50;
+    //    krzyzacy.price = 50;
     //    krzyzacy.catalogNumber = 1; jest prywatny - nie jest public tylkko static,
         ksiazka.price = -100;
 
         String a = krzyzacy.author;
+        String b = ksiazka.name;
         double cena = krzyzacy.price;
 
         System.out.println(cena);
+        System.out.println(a);
+        System.out.println(b);
 
     }
 }

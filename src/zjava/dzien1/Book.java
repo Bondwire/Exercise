@@ -7,8 +7,8 @@ package zjava.dzien1;
 public class Book {
     public String name = "Ogniem i mieczem";
     public double price = 40;
-    public String author= "Sienkiewicz"
+    public String author= "Sienkiewicz";
     private int catalogNumber = 10;
-    
+
 }
 
