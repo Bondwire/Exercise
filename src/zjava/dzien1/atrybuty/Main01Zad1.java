@@ -10,12 +10,13 @@ package zjava.dzien1.atrybuty;
 //Utworzy obiekt klasy AccessModifier i przypisze go do zmiennej testAttribute.
 //Sprawdź które z atrybutów klasy AccessModifier są dostępne.
 
-public class Main01 {
+public class Main01Zad1 {
 
     public static void main(String[] args) {
         AccessModifier testAttribute = new AccessModifier();
-        testAttribute.protectedAttribute = "public";
+        testAttribute.publicAttribute = "public";
         testAttribute.protectedAttribute = "protected";
-   //     testAttribute.privateAttribute = "x"; nie da się go stąd ustawić;
+        //testAttribute.privateAttribute = "x"; nie da się go stąd ustawić;
+        System.out.println(testAttribute.protectedAttribute);
     }
 }

@@ -21,7 +21,7 @@ public class Main02_atrybuty {
        //testAttribute.privateAttribute = "prywatny";
         System.out.println(testAttribute.publicAttribute);
         System.out.println(testAttribute.protectedAttribute);
-        System.out.println(testAttribute);
+        System.out.println(testAttribute.publicAttribute);
 
     }
 }

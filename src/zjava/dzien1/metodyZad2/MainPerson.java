@@ -8,11 +8,14 @@ public class MainPerson {
         a.setAge(23);
         a.setName("Anna");
         a.setGender("pani");
+        a.setIncreaseAge();
 
         System.out.println(a.getSurname());
         System.out.println(a.getName());
         System.out.println(a.getGender());
-
+        System.out.println(a.getage());
+        System.out.println(a.getGetFullName());
+        System.out.println(a.getIncreaseAge());
     }
 
 }

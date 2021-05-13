@@ -25,9 +25,6 @@ public class Calculator {
         addToOperations(operation);
         return result;
 
-        public void result ( double result){
-            this.result = result;
         }
 
     }
-}

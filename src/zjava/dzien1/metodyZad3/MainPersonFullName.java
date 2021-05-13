@@ -11,11 +11,12 @@ public class MainPersonFullName {
         a.setAge(23);
         a.setName("Anna");
         a.setGender("pani");
+        a.setGetFullName("zlączenie imienia i nazwiska");
 
         System.out.println(a.getSurname() + a.getName());
         System.out.println(a.getName());
         System.out.println(a.getGender());
-
+        System.out.println(a.getGetFullName());
     }
 
 }
