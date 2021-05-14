@@ -2,10 +2,10 @@ package zjava.dzien1.CalculatorKonst;
 
 import java.util.Arrays;
 
-public class Calculator {
+public class Kalkulator {
     private String[] operations;
 
-    public Calculator() {
+    public Kalkulator() {
         this.operations = new String[0];
     }
 
