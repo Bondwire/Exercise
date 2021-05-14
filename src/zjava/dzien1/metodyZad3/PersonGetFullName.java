@@ -7,6 +7,7 @@ public class PersonGetFullName {
     private String gender;
     private String name;
 
+    }
 
-}
+
 

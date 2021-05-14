@@ -26,7 +26,7 @@ public class Person {
     public void setAge(int age) {
         this.age = age; }
     public void setIncreaseAge() {
-        this.age += 1;
+        this.age += 41;
     }
     public String getName() {
         return ("name :" + this.name); }
