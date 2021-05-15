@@ -5,11 +5,11 @@ public class Car {
     private String model;
     private double price;
 
-    public String getBrand() {
+    public String setBrand(String brand) {
         return brand;
     }
 
-    public void setBrand(String brand) {
+    public void getBrand(String brand) {
         this.brand = brand;
     }
 
@@ -30,8 +30,11 @@ public class Car {
     }
 
     public String toString() {
-        return this.model + " " + this.price;
+        return this.model + " " + this.price + " " + this.brand;
+
     }
+
+
 
 
 //W pliku Main01.java umieść w metodzie main kod, który utworzy obiekt klasy Person o nazwie person
@@ -39,9 +42,11 @@ public class Car {
 
     public static void main(String[] args) {
         Car auto = new Car();
-        auto.setModel("Ford");
+        auto.getModel();
+        auto.getPrice();
         //auto.setPrice("200000.00"); // dlaczego nie wypisze double
         System.out.println(auto.getModel());
         System.out.println(auto.getPrice());
+        System.out.println(auto);
     }
 }
