@@ -25,17 +25,19 @@ public class porównywanieAtrybutow {
         book1.name = "Rok 1984";
         book1.price = Double.parseDouble(br.readLine());
         System.out.println("podaj cennę dla ksiązki book1.price");
-        book1.author = "George Orwell";
+        book1.author = "Prus";
+      //  System.out.println("podaj autora");
         book1.catalogNumber = 12;
 
         porównywanieAtrybutow book2 = new porównywanieAtrybutow();
         book2.name = "Rok 1984";
         book2.price = Double.parseDouble(br.readLine());
         System.out.println("podaj cene książki");
-        book2.author = "George Orwell";
+        book2.author = "Prus";
+      //  System.out.println("podaj autora");
         book2.catalogNumber = 12;
 
-        if (book1.price == book2.price)
+        if (book1.price == book2.price && book1.author == book2.author)
             System.out.println("są takie same ");
         else
             System.out.println("nie są takie same ");
